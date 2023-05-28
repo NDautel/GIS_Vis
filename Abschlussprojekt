@@ -1,0 +1,42 @@
+# Value By Alpha Maps in QGIS: Sexratio by municipality 
+
+## Datenquelle1: Verwaltungsgebiete inkl. Einwohnerzahl in Deutschland
+[WFS Verwaltungsgebiete 1:250 000 mit Einwohnerzahlen, Stand 31.12. (wfs_vg250-ew)] (https://gdz.bkg.bund.de/index.php/default/wfs-verwaltungsgebiete-1-250-000-mit-einwohnerzahlen-stand-31-12-wfs-vg250-ew.html)
+© GeoBasis-DE / BKG, Statistisches Bundesamt (Destatis) (Jahr)
+
+## Datenquelle1: Bevölkerung nach Geschlecht und Alter
+Destatis/Regional Verband 
+Sexratio own calculation using the male to female ratio
+
+1. Load Shapefile "Verwaltungsgebiet und Einwohnerzahl" via WFS-connection: https://sgx.geodatenzentrum.de/wfs_vg250-ew 
+    Note: AGS = Amtlicher Gemeindeschlüssel & ARS = Amtlicher Regionalschlüssel
+    
+
+
+<img width="1151" alt="image" src="https://github.com/NDautel/DTM/assets/84902755/73f97a05-a605-4073-9bd1-5e7b034fde0b">
+
+## QGIS:
+1.) Vergleich SPD und CDU: Stimmenstärkere Partei regelbasiert darstellen
+Regelname Olaf: 
+```
+"_kergSPD" >  "_kergCDU" 
+```
+Regelname Armin: 
+```
+"_kergSPD" <  "_kergCDU" 
+```
+
+Tabelle (kerg1) mit Wahlergebnissen bereinigen: 
+
+<img width="1151" alt="image" src="https://github.com/NDautel/DTM/assets/84902755/73f97a05-a605-4073-9bd1-5e7b034fde0b">
+
+## QGIS:
+1.) Vergleich SPD und CDU: Stimmenstärkere Partei regelbasiert darstellen
+Regelname Olaf: 
+```
+"_kergSPD" >  "_kergCDU" 
+```
+Regelname Armin: 
+```
+"_kergSPD" <  "_kergCDU" 
+```
