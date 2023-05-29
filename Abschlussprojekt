@@ -11,6 +11,13 @@ Sexratio own calculation using the male to female ratio
 1. Load Shapefile "Verwaltungsgebiet und Einwohnerzahl" via WFS-connection: https://sgx.geodatenzentrum.de/wfs_vg250-ew 
     Note: AGS = Amtlicher Gemeindeschlüssel & ARS = Amtlicher Regionalschlüssel
     
+    Refactor Table/fields if necessary --> Transposes strings to indices or vice versa 
+    
+    
+    
+    
+    
+    
 
 
 <img width="1151" alt="image" src="https://github.com/NDautel/DTM/assets/84902755/73f97a05-a605-4073-9bd1-5e7b034fde0b">
